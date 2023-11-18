@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 80px;
+    height: 120px;
+    margin: 10px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.selected {
+    border: 2px solid #00f;
+}
+
+.highlight {
+    border: 2px solid blue;
+}
+
+.big {
+    width: 400px;
+    height: 300px;
+    border: none;
+}
+
